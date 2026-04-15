@@ -1,0 +1,20 @@
+[package]
+name = "monstergaming"
+version = "0.1.0"
+edition = "2021"
+description = "Official Rust SDK for Monster Gaming — AI-powered game development platform"
+homepage = "https://monstergaming.ai"
+repository = "https://github.com/Monster-Gaming-ai/sdk-rust"
+documentation = "https://docs.rs/monstergaming"
+keywords = ["ai", "game-development", "llm", "unreal", "gamedev"]
+categories = ["api-bindings", "game-development"]
+license = "MIT"
+readme = "README.md"
+authors = ["Monster Gaming <hello@monstergaming.ai>"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["rt"] }
