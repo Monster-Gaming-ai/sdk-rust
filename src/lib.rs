@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Luxedeum, LLC d/b/a Monster Gaming
+
 //! # Monster Gaming SDK for Rust
 //!
 //! Official Rust client for [Monster Gaming](https://monstergaming.ai) —
