@@ -1,6 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-// Copyright 2026 Luxedeum, LLC d/b/a Monster Gaming
-
 //! # Monster Gaming SDK for Rust
 //!
 //! Official Rust client for [Monster Gaming](https://monstergaming.ai) —
@@ -12,7 +9,7 @@
 //! ```no_run
 //! use monstergaming::{MonsterGaming, ChatMessage};
 //!
-//! #[tokio::main]
+//! #[tokio::main(flavor = "current_thread")]
 //! async fn main() -> Result<(), monstergaming::Error> {
 //!     let client = MonsterGaming::new("mg_your_api_key");
 //!
